@@ -1,0 +1,104 @@
+.card3-container{
+    width: 350px;
+    height: 300px;
+    /* background-color: aqua; */
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+.card-heading{
+    font-weight: 500;
+    font-size: 23px;
+   margin-bottom: 5px;
+
+
+}
+.card-secondheading{
+    font-weight: 500;
+    font-size: 23px;
+    color: gray; 
+    margin-bottom: 5px;
+    
+}
+.card-paragraph{
+    font-weight: 500;
+    font-size: 21px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.program-details{
+    font-weight: 500;
+    font-size: 28px;
+    padding-top: 30px;
+    color: #1D0AFF;
+}
+.program-details:hover{
+    text-decoration: underline;
+    color: #1D0AFF;
+}
+@media  (min-width: 776px) and (max-width: 840px){
+    .card3-container{
+        width: 220px;
+        height: 230px;
+        /* background-color: aqua; */
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .card-heading{
+        font-weight: 500;
+        font-size: 18px;
+       margin-bottom: 5px;
+     }
+    .card-secondheading{
+         font-size: 18px;
+     }
+    .card-paragraph{
+       font-size: 16px;
+    }
+    .program-details{
+        font-size: 23px;
+        padding-top: 20px;
+     }
+}
+@media  (min-width: 426px) and (max-width: 775px){
+    .card3-container{
+        width: 250px;
+        height: 200px;
+        /* background-color: blueviolet; */
+    }
+    .card-heading{
+        font-size: 18px;
+       margin-bottom: 5px;
+     }
+    .card-secondheading{
+         font-size: 16px;
+     }
+    .card-paragraph{
+       font-size: 15px;
+    }
+    .program-details{
+        font-size: 20px;
+        padding-top: 15px;
+     }
+}
+@media  (min-width: 0px) and (max-width: 425px){
+    .card3-container{
+        width: 200px;
+        height: 180px;
+        /* background-color: rgb(184, 164, 202); */
+    }
+    .card-heading{
+        font-size: 16px;
+       margin-bottom: 5px;
+     }
+    .card-secondheading{
+         font-size: 13px;
+     }
+    .card-paragraph{
+       font-size: 12px;
+    }
+    .program-details{
+        font-size: 18px;
+        padding-top: 15px;
+     }
+}

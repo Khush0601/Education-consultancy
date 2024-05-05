@@ -1,0 +1,79 @@
+.card4-container{
+    width: 330px;
+    height: 300px;
+    /* background-color: rgb(104, 202, 207); */
+    margin: 40px;
+}
+.ins-title{
+    font-weight: 500;
+    font-size: 28px;
+}
+.ins-second-title{
+    font-weight: 500;
+    font-size: 28px;
+}
+.ins-desc{
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 24px;
+}
+@media  (min-width: 776px) and (max-width: 840px){
+    .card4-container{
+        width: 300px;
+        height: 230px;
+        /* background-color: rgb(104, 202, 207); */
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+     }
+    .ins-title{
+       font-size: 25px;
+    }
+    .ins-second-title{
+        font-size: 22px;
+    }
+    .ins-desc{
+        padding-top: 20px;
+        font-size: 17px;
+    }
+}
+@media  (min-width: 426px) and (max-width: 775px){
+    .card4-container{
+        width: 250px;
+        height: 210px;
+        /* background-color: rgb(104, 202, 207); */
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 2px;
+     }
+    .ins-title{
+       font-size: 20px;
+    }
+    .ins-second-title{
+        font-size: 17px;
+    }
+    .ins-desc{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+}
+@media  (min-width: 0px) and (max-width: 425px){
+    .card4-container{
+        width: 200px;
+        height: 180px;
+        /* background-color: rgb(104, 202, 207); */
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 2px;
+     }
+    .ins-title{
+       font-size: 18px;
+    }
+    .ins-second-title{
+        font-size: 15px;
+    }
+    .ins-desc{
+        padding-top: 15px;
+        font-size: 13px;
+    }
+}

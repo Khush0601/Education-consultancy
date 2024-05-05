@@ -1,0 +1,97 @@
+.counseling-container{
+   padding-top: 60px;
+    display: flex;
+   flex-direction: column;
+   padding-left: 100px;
+   padding-right: 100px;
+   justify-content: center;
+   align-items: center;
+    
+}
+.counseling{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.para{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+   text-align: center;
+   color: #030303;
+   
+}
+.counceling-Card{
+    margin-top: 60px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+   
+}
+.counceling-Card-left{
+   
+}
+.counceling-Card-right{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 50px;
+}
+.counceling-Card-right>img{
+    width:450px;
+     height: 450px;
+}
+
+
+@media  (min-width: 776px) and (max-width: 840px){
+    .counceling-Card-right{
+        margin-left: 20px;
+    }
+    .counceling-Card-right>img{
+        width: 350px;
+        height: 350px;
+    }
+    .counseling{
+        font-size: 35px;
+    }
+    .para{
+        font-size: 18px;
+        padding-top: 25px;
+        
+    }
+    
+}
+@media  (min-width: 426px) and (max-width: 775px){
+    .counseling-container{
+        padding-top: 60px;
+       
+      }
+     
+    .counceling-Card-right{
+        margin-left: 15px;
+    }
+    .counceling-Card-right>img{
+        width: 200px;
+        height: 200px;
+    }
+    .counseling{
+        font-size: 30px;
+    }
+    .para{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
+@media  (min-width: 0px) and (max-width: 425px){
+   
+    
+    .counseling{
+        font-size: 28px;
+    }
+    .para{
+        font-size: 17px;
+    }
+}

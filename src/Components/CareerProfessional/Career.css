@@ -1,0 +1,27 @@
+.career-container{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media  (min-width: 776px) and (max-width: 840px){
+    .career-container{
+        padding-top: 50px;
+    }
+}
+@media  (min-width: 426px) and (max-width: 775px){
+    .career-container{
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+
+}
+@media  (min-width: 0px) and (max-width: 425px){
+    .career-container{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+}
