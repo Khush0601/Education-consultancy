@@ -1,0 +1,14 @@
+.info-conatiner{
+padding-top: 60px;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+}
+@media  (min-width: 426px) and (max-width: 775px){
+    .info-conatiner{
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+        }
+}
